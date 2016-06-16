@@ -14,8 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter lux merlin osprey surnia,$(TARGET_DEVICE)),)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := lenovo
@@ -67,5 +65,4 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
-endif
 
