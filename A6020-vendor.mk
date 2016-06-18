@@ -14,4 +14,4 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/lenovo/A6020a40/A6020a40-vendor-blobs.mk)
+$(call inherit-product, vendor/lenovo/A6020/A6020-vendor-blobs.mk)
