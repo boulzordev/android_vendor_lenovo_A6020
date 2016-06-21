@@ -56,12 +56,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lenovo/A6020/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/lenovo/A6020/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/A6020/proprietary/lib64/libdivxdrmdecrypt.so:system/lib64/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/A6020/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
-    vendor/lenovo/A6020/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/A6020/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/lenovo/A6020/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
