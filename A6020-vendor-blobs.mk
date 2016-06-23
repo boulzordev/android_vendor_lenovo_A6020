@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/A6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/A6020/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/A6020/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -44,22 +45,27 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lenovo/A6020/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/A6020/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-	vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-	vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/lenovo/A6020/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/A6020/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/A6020/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/lenovo/A6020/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/lenovo/A6020/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lenovo/A6020/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/lenovo/A6020/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/A6020/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/lenovo/A6020/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/A6020/proprietary/lib64/libdivxdrmdecrypt.so:system/lib64/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/A6020/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
+    vendor/lenovo/A6020/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/A6020/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/lenovo/A6020/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/lenovo/A6020/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -108,12 +114,27 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -151,6 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
