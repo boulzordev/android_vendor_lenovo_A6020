@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lenovo/A6020/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/A6020/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/A6020/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
