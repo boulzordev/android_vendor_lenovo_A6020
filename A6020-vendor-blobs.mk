@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lenovo/A6020/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/lenovo/A6020/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+    vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/lenovo/A6020/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/A6020/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -77,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
-    vendor/lenovo/A6020/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/lenovo/A6020/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -86,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/A6020/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lenovo/A6020/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lenovo/A6020/proprietary/lib64/libbt-vendor.so:system/lib64/libbt-vendor.so \
     vendor/lenovo/A6020/proprietary/lib64/libdivxdrmdecrypt.so:system/lib64/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
