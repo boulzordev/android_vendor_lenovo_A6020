@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/A6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lenovo/A6020/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/A6020/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/A6020/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -71,12 +72,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/lenovo/A6020/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/A6020/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/lenovo/A6020/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/lenovo/A6020/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/lenovo/A6020/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/A6020/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/lenovo/A6020/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/lenovo/A6020/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/A6020/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
