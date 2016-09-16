@@ -32,6 +32,38 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lenovo/A6020/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/thermal-engine.conf:system/etc/A6020a40/thermal-engine.conf \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b00:system/etc/A6020a40/venus.b00 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b01:system/etc/A6020a40/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b02:system/etc/A6020a40/venus.b02 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b03:system/etc/A6020a40/venus.b03 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b04:system/etc/A6020a40/venus.b04 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.mbn:system/etc/A6020a40/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.mdt:system/etc/A6020a40/venus.mdt \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/thermal-engine.conf:system/etc/A6020a46/thermal-engine.conf \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b00:system/etc/A6020a46/venus.b00 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b01:system/etc/A6020a46/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b02:system/etc/A6020a46/venus.b02 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b03:system/etc/A6020a46/venus.b03 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b04:system/etc/A6020a46/venus.b04 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.mbn:system/etc/A6020a46/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.mdt:system/etc/A6020a46/venus.mdt \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/thermal-engine.conf:system/etc/A6020l36/thermal-engine.conf \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.b00:system/etc/A6020l36/venus.b00 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.b01:system/etc/A6020l36/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.b02:system/etc/A6020l36/venus.b02 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.b03:system/etc/A6020l36/venus.b03 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.b04:system/etc/A6020l36/venus.b04 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.mbn:system/etc/A6020l36/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/A6020l36/venus.mdt:system/etc/A6020l36/venus.mdt \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/thermal-engine.conf:system/etc/A6020l37/thermal-engine.conf \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b00:system/etc/A6020l37/venus.b00 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b01:system/etc/A6020l37/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b02:system/etc/A6020l37/venus.b02 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b03:system/etc/A6020l37/venus.b03 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b04:system/etc/A6020l37/venus.b04 \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.mbn:system/etc/A6020l37/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.mdt:system/etc/A6020l37/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -76,30 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/thermal-engine.conf:system/etc/S82918B1/thermal-engine.conf \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.b00:system/etc/S82918B1/venus.b00 \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.b01:system/etc/S82918B1/venus.b01 \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.b02:system/etc/S82918B1/venus.b02 \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.b03:system/etc/S82918B1/venus.b03 \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.b04:system/etc/S82918B1/venus.b04 \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.mbn:system/etc/S82918B1/venus.mbn \
-    vendor/lenovo/A6020/proprietary/etc/S82918B1/venus.mdt:system/etc/S82918B1/venus.mdt \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/thermal-engine.conf:system/etc/S82918F1/thermal-engine.conf \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.b00:system/etc/S82918F1/venus.b00 \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.b01:system/etc/S82918F1/venus.b01 \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.b02:system/etc/S82918F1/venus.b02 \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.b03:system/etc/S82918F1/venus.b03 \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.b04:system/etc/S82918F1/venus.b04 \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.mbn:system/etc/S82918F1/venus.mbn \
-    vendor/lenovo/A6020/proprietary/etc/S82918F1/venus.mdt:system/etc/S82918F1/venus.mdt \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/thermal-engine.conf:system/etc/S82918G1/thermal-engine.conf \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.b00:system/etc/S82918G1/venus.b00 \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.b01:system/etc/S82918G1/venus.b01 \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.b02:system/etc/S82918G1/venus.b02 \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.b03:system/etc/S82918G1/venus.b03 \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.b04:system/etc/S82918G1/venus.b04 \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.mbn:system/etc/S82918G1/venus.mbn \
-    vendor/lenovo/A6020/proprietary/etc/S82918G1/venus.mdt:system/etc/S82918G1/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/A6020/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/lenovo/A6020/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
