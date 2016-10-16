@@ -64,6 +64,34 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.b04:system/etc/A6020l37/venus.b04 \
     vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.mbn:system/etc/A6020l37/venus.mbn \
     vendor/lenovo/A6020/proprietary/etc/A6020l37/venus.mdt:system/etc/A6020l37/venus.mdt \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/lenovo/A6020/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -114,6 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/A6020/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/A6020/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/lenovo/A6020/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/lenovo/A6020/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
@@ -125,6 +155,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/A6020/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lenovo/A6020/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lenovo/A6020/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
+    vendor/lenovo/A6020/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
     vendor/lenovo/A6020/proprietary/lib64/libdivxdrmdecrypt.so:system/lib64/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
