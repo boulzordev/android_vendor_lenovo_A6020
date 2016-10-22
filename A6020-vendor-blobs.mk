@@ -40,6 +40,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.b04:system/etc/A6020a40/venus.b04 \
     vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.mbn:system/etc/A6020a40/venus.mbn \
     vendor/lenovo/A6020/proprietary/etc/A6020a40/venus.mdt:system/etc/A6020a40/venus.mdt \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/thermal-engine.conf:system/etc/A6020a41/thermal-engine.conf \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.b00:system/etc/A6020a41/venus.b00 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.b01:system/etc/A6020a41/venus.b01 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.b02:system/etc/A6020a41/venus.b02 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.b03:system/etc/A6020a41/venus.b03 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.b04:system/etc/A6020a41/venus.b04 \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.mbn:system/etc/A6020a41/venus.mbn \
+    vendor/lenovo/A6020/proprietary/etc/A6020a41/venus.mdt:system/etc/A6020a41/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/A6020a46/thermal-engine.conf:system/etc/A6020a46/thermal-engine.conf \
     vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b00:system/etc/A6020a46/venus.b00 \
     vendor/lenovo/A6020/proprietary/etc/A6020a46/venus.b01:system/etc/A6020a46/venus.b01 \
