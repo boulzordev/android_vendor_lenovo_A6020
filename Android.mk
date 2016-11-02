@@ -14,6 +14,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifneq ($(filter A6020,$(TARGET_DEVICE)),)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := lenovo
@@ -64,5 +66,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
+include $(CLEAR_VARS)
 
-
+endif
