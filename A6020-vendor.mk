@@ -15,3 +15,5 @@
 # Pick up overlay for features that depend on non-open-source files
 
 $(call inherit-product, vendor/lenovo/A6020/A6020-vendor-blobs.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8916-64/graphics/graphics-vendor.mk)
