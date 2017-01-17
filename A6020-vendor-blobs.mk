@@ -18,10 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/A6020/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/A6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lenovo/A6020/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/lenovo/A6020/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/lenovo/A6020/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/lenovo/A6020/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/A6020/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -146,10 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/A6020/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/A6020/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/lenovo/A6020/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/A6020/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/A6020/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/lenovo/A6020/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
@@ -346,24 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/hw/wbc_hal.default.so:system/vendor/lib64/hw/wbc_hal.default.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -395,8 +371,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libHevcSwDecoder.so:system/vendor/lib64/libHevcSwDecoder.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
@@ -439,4 +413,39 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libwvm.so:system/vendor/lib64/libwvm.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+    vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lenovo/A6020/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/lenovo/A6020/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/lenovo/A6020/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/lenovo/A6020/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/lenovo/A6020/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lenovo/A6020/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so
+
+PRODUCT_PACKAGES += \
+    ims \
+    imssettings \
+    imscmlibrary
