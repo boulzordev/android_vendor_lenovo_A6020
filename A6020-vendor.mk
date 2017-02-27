@@ -151,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
     vendor/lenovo/A6020/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/lenovo/A6020/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
+    vendor/lenovo/A6020/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/A6020/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/lenovo/A6020/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/A6020/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
