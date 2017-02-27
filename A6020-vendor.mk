@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/A6020/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/A6020/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lenovo/A6020/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
