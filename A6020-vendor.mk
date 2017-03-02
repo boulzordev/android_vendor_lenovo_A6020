@@ -417,10 +417,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
-PRODUCT_PACKAGES += TimeService \
+PRODUCT_PACKAGES += \
     ims \
     imssettings \
-    imscmlibrary
+    imscmlibrary \
+    TimeService
 
 $(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
 $(call inherit-product, vendor/qcom/binaries/msm8916-64/graphics/graphics-vendor.mk)
