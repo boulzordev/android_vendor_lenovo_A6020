@@ -1,4 +1,5 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -422,5 +423,5 @@ PRODUCT_PACKAGES += TimeService \
     imssettings \
     imscmlibrary
 
-$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
-$(call inherit-product, vendor/qcom/binaries/msm8916-64/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/lenovo/A6020/msm8916-32/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/lenovo/A6020/msm8916-64/graphics/graphics-vendor.mk)
