@@ -117,14 +117,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/lenovo/A6020/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lenovo/A6020/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/lenovo/A6020/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/A6020/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/A6020/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/A6020/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/A6020/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/lenovo/A6020/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/A6020/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -418,7 +414,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
-PRODUCT_PACKAGES += TimeService \
+PRODUCT_PACKAGES += \
+    TimeService \
     ims \
     imssettings \
     imscmlibrary
