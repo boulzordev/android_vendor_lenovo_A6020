@@ -87,9 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/A6020/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.b01:system/etc/firmware/variant/default/venus.b01 \
-    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.mbn:system/etc/firmware/variant/default/venus.mbn \
-    vendor/lenovo/A6020/proprietary/etc/firmware/variant/default/venus.mdt:system/etc/firmware/variant/default/venus.mdt \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.b01:system/etc/firmware/variant/A6020a40/venus.b01 \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.mbn:system/etc/firmware/variant/A6020a40/venus.mbn \
     vendor/lenovo/A6020/proprietary/etc/firmware/variant/A6020a40/venus.mdt:system/etc/firmware/variant/A6020a40/venus.mdt \
