@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/lenovo/A6020/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/lenovo/A6020/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
+    vendor/lenovo/A6020/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
     vendor/lenovo/A6020/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
@@ -137,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/A6020/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/lenovo/A6020/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
+    vendor/lenovo/A6020/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/lenovo/A6020/proprietary/lib64/libdivxdrmdecrypt.so:system/lib64/libdivxdrmdecrypt.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/A6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
@@ -189,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libcamerahandler_jni.so:system/vendor/lib/libcamerahandler_jni.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -388,6 +391,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libcalmodule_senodia.so:system/vendor/lib64/libcalmodule_senodia.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
