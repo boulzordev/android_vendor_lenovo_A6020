@@ -223,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -332,6 +333,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -400,6 +402,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
