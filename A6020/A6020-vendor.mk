@@ -30,9 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/A6020/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lenovo/A6020/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/lenovo/A6020/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
