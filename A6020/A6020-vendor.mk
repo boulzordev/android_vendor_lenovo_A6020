@@ -15,21 +15,21 @@
 
 #Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/A6020/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lenovo/A6020/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lenovo/A6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lenovo/A6020/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/lenovo/A6020/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/lenovo/A6020/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lenovo/A6020/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lenovo/A6020/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lenovo/A6020/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lenovo/A6020/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lenovo/A6020/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lenovo/A6020/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lenovo/A6020/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lenovo/A6020/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/lenovo/A6020/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/lenovo/A6020/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/lenovo/A6020/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/lenovo/A6020/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/lenovo/A6020/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/lenovo/A6020/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/lenovo/A6020/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/lenovo/A6020/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/lenovo/A6020/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/lenovo/A6020/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/lenovo/A6020/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/lenovo/A6020/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/lenovo/A6020/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/lenovo/A6020/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/lenovo/A6020/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/lenovo/A6020/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
